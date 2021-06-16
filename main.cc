@@ -38,7 +38,7 @@ int main(int argc, char* argv[])
 {
   if(argc < 5)
   {
-     printf("Usage : ./program <rows> <columns> <density between 0.0 and 1.0> <boundary (0 for no, non-zero for yes)>\n");
+     printf("Usage : ./program --nfil --ncol --nt --plive --seq --show>\n");
      return -1;
   }
 
